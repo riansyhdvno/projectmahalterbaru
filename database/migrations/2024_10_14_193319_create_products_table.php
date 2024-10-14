@@ -16,8 +16,12 @@ return new class extends Migration
             $table->string('nama_produk');
             $table->foreignId('category_id')->constrained(
                 table: 'categories',
-                indexName: 'products_category_id'
+                indexName: 'id'
             );
+            $table->string('gambar_produk');
+            $table->decimal('harga');
+            $table->string('lokasi');
+            $table->string('kondisi');
             $table->timestamps();
         });
     }
