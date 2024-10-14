@@ -5,7 +5,7 @@
 
     <div class="grid grid-cols-3 gap-4">
         <!-- Card 1 -->
-        <a href="#" class="relative block overflow-hidden rounded-lg shadow-lg">
+        <a href="/product/" class="relative block overflow-hidden rounded-lg shadow-lg">
             <img src="img/mouse.png" alt="Bubble Wrap" class="object-cover w-full h-48">
             <div class="absolute bottom-0 left-0 text-white p-2 text-sm">
                 Mouse
